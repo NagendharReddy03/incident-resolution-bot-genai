@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: incident-bot-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: incident-bot
+  template:
+    metadata:
+      labels:
+        app: incident-bot
+    spec:
+      containers:
+        - name: incident-bot
+          image: your-dockerhub-username/incident-bot:latest
+          ports:
+            - containerPort: 8000
+          env:
+            - name: OPENAI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: openai-secret
+                  key: api-key

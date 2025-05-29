@@ -1,0 +1,9 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Incident Bot Metrics",
+    "panels": [],
+    "schemaVersion": 36,
+    "version": 0
+  }
+}
