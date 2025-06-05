@@ -1,10 +1,12 @@
-from fastapi import FastAPI, Request
-from app.ai_logic import analyze_logs
-from app.models import LogRequest, LogResponse
+from fastapi import FastAPI
+from app.routes import router as log_router
 
 app = FastAPI(title="GenAI Incident Resolution Bot")
 
-@app.post("/analyze", response_model=LogResponse)
-async def analyze_log_endpoint(request: LogRequest):
-    result = analyze_logs(request.log_text)
-    return {"suggested_fix": result}
+# Include the routes
+app.include_router(log_router)
+
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to the GenAI Incident Resolution Bot API!"}
+
