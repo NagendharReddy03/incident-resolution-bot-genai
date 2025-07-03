@@ -44,7 +44,7 @@ incident-resolution-bot-genai/
 │   └── ci.yml               # GitHub Actions for CI/CD
 ├── .env.example             # Template for env variables
 └── README.md
-
+```
 ---
 
 ## Setup Instructions
