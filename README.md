@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="https://img.shields.io/github/languages/top/NagendharReddy03/incident-resolution-bot-genai?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/last-commit/NagendharReddy03/incident-resolution-bot-genai?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/OpenAI-Integrated-blueviolet?style=for-the-badge"/>
-</p>
 
 <h1 align="center">GenAI Incident Resolution Bot</h1>
 
