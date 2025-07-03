@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/OpenAI-Integrated-blueviolet?style=for-the-badge"/>
 </p>
 
-<h1 align="center">🧠 GenAI Incident Resolution Bot</h1>
+<h1 align="center">GenAI Incident Resolution Bot</h1>
 
 <p align="center">
   An AI-powered bot to automate L1/L2 IT incident resolution by parsing logs, matching job ticket context, and generating actionable solutions using OpenAI.
@@ -12,19 +12,19 @@
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-- 🔍 Intelligent Log Analysis using GPT
-- 📄 JD/Support Ticket Context Matching
-- 📤 Upload `.txt`, `.pdf`, `.docx` for smarter resolution
-- 🧠 Suggests actionable fixes using historical data
-- 🐳 Dockerized App for Local/Cloud use
-- 📊 Logging and Monitoring enabled
-- 🔐 Configurable via `.env` and `config.yaml`
+- Intelligent Log Analysis using GPT
+- JD/Support Ticket Context Matching
+- Upload `.txt`, `.pdf`, `.docx` for smarter resolution
+- Suggests actionable fixes using historical data
+- Dockerized App for Local/Cloud use
+- Logging and Monitoring enabled
+- Configurable via `.env` and `config.yaml`
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 incident-resolution-bot-genai/
