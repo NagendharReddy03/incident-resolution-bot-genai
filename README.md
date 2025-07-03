@@ -47,3 +47,48 @@ incident-resolution-bot-genai/
 │
 ├── .env                     # Set your OpenAI key here
 └── README.md                # You’re reading it!
+
+---
+
+## Setup Instructions
+
+# Clone the repo
+git clone https://github.com/NagendharReddy03/incident-resolution-bot-genai.git
+cd incident-resolution-bot-genai
+
+# Set up virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r ci/requirements.txt
+
+# Set your OpenAI key
+cp .env.example .env
+# Then edit .env and paste your OPENAI_API_KEY
+
+## Run the Bot
+
+Run locally:
+uvicorn app.main:app --reload
+Go to: http://localhost:8000/docs
+
+Run with Docker:
+
+cd ci
+docker compose up --build
+
+## Future Enhancements
+	•	JD context matching
+	•	Streamlit or React frontend
+	•	Role-Based Access Control (Admin / Agent)
+	•	Feedback voting on suggestions
+	•	CI/CD GitHub Actions Pipeline
+
+---
+
+Connect
+	•	GitHub: https://github.com/NagendharReddy03
+	•	LinkedIn: https://www.linkedin.com/in/nagendharreddy/
+	•	📧 nagendharreddy.work@gmail.com
+
