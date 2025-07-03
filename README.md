@@ -49,18 +49,18 @@ incident-resolution-bot-genai/
 
 ## Setup Instructions
 
-# Clone the repo
+## Clone the repo
 git clone https://github.com/NagendharReddy03/incident-resolution-bot-genai.git
 cd incident-resolution-bot-genai
 
-# Set up virtual environment
+## Set up virtual environment
 python3 -m venv venv
 source venv/bin/activate
 
-# Install dependencies
+## Install dependencies
 pip install -r ci/requirements.txt
 
-# Set your OpenAI key
+## Set your OpenAI key
 cp .env.example .env
 Then edit .env and paste your OPENAI_API_KEY
 
