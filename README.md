@@ -26,7 +26,7 @@
 
 ## Project Structure
 
-```bash
+
 incident-resolution-bot-genai/
 │
 ├── app/
@@ -65,7 +65,7 @@ pip install -r ci/requirements.txt
 
 # Set your OpenAI key
 cp .env.example .env
-# Then edit .env and paste your OPENAI_API_KEY
+Then edit .env and paste your OPENAI_API_KEY
 
 ## Run the Bot
 
@@ -79,16 +79,16 @@ cd ci
 docker compose up --build
 
 ## Future Enhancements
-	•	JD context matching
-	•	Streamlit or React frontend
-	•	Role-Based Access Control (Admin / Agent)
-	•	Feedback voting on suggestions
-	•	CI/CD GitHub Actions Pipeline
+- JD context matching
+- Streamlit or React frontend
+- Role-Based Access Control (Admin / Agent)
+- Feedback voting on suggestions
+- CI/CD GitHub Actions Pipeline
 
 ---
 
 Connect
-	•	GitHub: https://github.com/NagendharReddy03
-	•	LinkedIn: https://www.linkedin.com/in/nagendharreddy/
-	•	📧 nagendharreddy.work@gmail.com
+- GitHub: https://github.com/NagendharReddy03
+- LinkedIn: https://www.linkedin.com/in/nagendharreddy/
+- Mail: nagendharreddy.work@gmail.com
 
