@@ -26,27 +26,24 @@
 
 ## Project Structure
 
-
+```bash
 incident-resolution-bot-genai/
-│
 ├── app/
 │   ├── main.py              # FastAPI entry point
-│   ├── routes.py            # All API endpoints
-│   ├── ai_logic.py          # OpenAI interaction & logic
+│   ├── routes.py            # API endpoints
+│   ├── ai_logic.py          # OpenAI logic and context matching
 │   └── models.py            # Pydantic schemas
-│
 ├── config/
 │   └── config.yaml          # API Keys and settings
-│
-├── logs/                    # Stores request logs
-│
+├── logs/                    # Stores runtime logs
 ├── ci/
-│   ├── Dockerfile           # Docker config
-│   ├── requirements.txt     # Dependencies
-│   └── docker-compose.yml   # Containerized setup
-│
-├── .env                     # Set your OpenAI key here
-└── README.md                # You’re reading it!
+│   ├── Dockerfile           # Docker build
+│   ├── requirements.txt     # Python dependencies
+│   └── docker-compose.yml   # Docker orchestration
+├── .github/workflows/
+│   └── ci.yml               # GitHub Actions for CI/CD
+├── .env.example             # Template for env variables
+└── README.md
 
 ---
 
@@ -87,7 +84,7 @@ docker compose up --build
 
 ---
 
-Connect
+## Connect
 - GitHub: https://github.com/NagendharReddy03
 - LinkedIn: https://www.linkedin.com/in/nagendharreddy/
 - Mail: nagendharreddy.work@gmail.com
